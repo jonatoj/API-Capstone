@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Ideas</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+<body>
+    <h1>What's for Dinner?</h1>
+    <section>
+    <p class="description">
+    So, What's for Dinner? allows you to simply search for recipes by cuisine, <br>
+     and once you're ready to see the recipe just click the image!</p>
+</section>
+
+    <form id=container>
+        <label for="js-recipe">Search for Recipes by Cuisine:</label>
+        <input type="text" name="recipe" id="js-recipe" placeholder="Mexican" class="textbox" required>
+        <label for="js-totalRecipe">Number Of Recipes:</label>
+        <input type="number" name="maxRecipe" id="js-totalRecipe"  max="20" value="10" class="number" required> 
+        <button type="submit">Find</button>
+    </form>
+
+    <p class="js-error"></p>
+
+        <section class="results-hidden">
+            <h2>Search Results:</h2>
+            <ul class="results-list">
+            </ul>
+        </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+html { 
+    background: url(https://i.ibb.co/tKfQ707/Lukas-blazek-EWDv-HNNf-Um-Q-unsplash.jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #055902;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.textbox .number {
+    background-color: whitesmoke;
+    border: thin solid #055902;
+    color: #055902;
+    font-size: 20px;
+    width: 100px;
+}
+
+form {
+    font-size: 20px;
+    margin: 10% 25%;
+}
+
+ul img {
+    align-self: center;
+    width: 90%;
+}
+
+@media screen and (min-width: 500px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+        padding: 20px 0 ;
+    }
+    h3 {
+        font-size: 20px; 
+        text-align: center;
+    }
+    .description {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+    form {
+        text-align: center;
+        font-size: 25px;
+        margin: 0 0;
+    }
+    li {
+        display: inline-block;
+        margin: 0 30px 0 30px;
+    }
+}
