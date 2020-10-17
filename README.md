@@ -17,11 +17,11 @@ Select a Cuisine from the list and number of images to display.
 
 Then click the image to display the recipes information.
 
-image
+![Screenshot](results.png)
 
 Select one of the six displayed options by clicking.
 
-image
+![Screenshot](recipe.png)
 
 User may start over at any time by clicking the button.
 
