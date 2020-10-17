@@ -1,4 +1,5 @@
 What's for Dinner?
+
 Introduction
 What's for Dinner is a web application to help you search for meal plan ideas by different cuisines.
 
@@ -15,7 +16,9 @@ An active internet connection.
 User Instructions.
 Select a Cuisine from the list and number of images to display.
 
-Select one of twenty six cuisines displayed and select number of recipes to display or use default number of recipes/image.
+
+Select one of twenty six cuisines displayed and select number of recipes to display
+or use default number of recipes/image.
 
 
 ![Screenshot](results.png)
