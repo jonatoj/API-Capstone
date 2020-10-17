@@ -6,7 +6,7 @@ A live version of the application can be found at: https://reinhal.github.io/jus
 
 Current live version: 1.0
 
-image
+img<src="Screen Shot 2020-10-17 at 8.22.23 AM.png">
 
 Requirements
 A web browser.
