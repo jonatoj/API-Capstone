@@ -48,7 +48,9 @@ Then click the image to display the recipes information.
 * Spoonacular Food API
 
 #
+## Credits
 
+Spoonacular
 https://spoonacular.com/food-api
 
 ## Author
