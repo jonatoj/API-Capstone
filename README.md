@@ -15,16 +15,20 @@ An active internet connection.
 User Instructions.
 Select a Cuisine from the list and number of images to display.
 
-Then click the image to display the recipes information.
+Select one of twenty six cuisines displayed and select number of recipes to display or use default number of recipes/image.
+
 
 ![Screenshot](results.png)
 
-Select one of twenty six cuisines displayed and select number of recipes to display or use default number of recipes/image.
+
+Then click the image to display the recipes information.
+
 
 ![Screenshot](recipe.png)
 
 
 Planned Development
+
 Allow the user to select one of twenty six different cuisines
 Allow the user to scroll through all the recipe/image results.
 Allow the user to click on a image to view the recipe information.
