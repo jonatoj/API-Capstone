@@ -2,7 +2,7 @@ What's for Dinner?
 Introduction
 What's for Dinner is a web application to help you search for meal plan ideas by different cuisines.
 
-A live version of the application can be found at: https://reinhal.github.io/jusnoshin/
+A live version of the application can be found at: https://jonatoj.github.io/What-s-For-Dinner/.
 
 Current live version: 1.0
 
@@ -12,41 +12,31 @@ Current live version: 1.0
 Requirements
 A web browser.
 An active internet connection.
-User Instructions
+User Instructions.
 Select a Cuisine from the list and number of images to display.
 
 Then click the image to display the recipes information.
 
 ![Screenshot](results.png)
 
-Select one of the six displayed options by clicking.
+Select one of twenty six cuisines displayed and select number of recipes to display or use default number of recipes/image.
 
 ![Screenshot](recipe.png)
 
-User may start over at any time by clicking the button.
 
 Planned Development
-Add the following choices in the initial input fields:
-Diet Requirements: Any/None
-Cuisine: Any
-Intolerances/Allergies: None
-Allow the user to scroll through all the recipe results.
-Display the complete recipe selected, including ingredients and preparation instructions.
-Give users the options to search for either recipes or nearby restaurants.
-Give users the ability to scroll through all the wine results.
-Based on current location, display nearby venues.
-Display the nutrition information of a selected meal for either a recipe or a menu selection.
+Allow the user to select one of twenty six different cuisines
+Allow the user to scroll through all the recipe/image results.
+Allow the user to click on a image to view the recipe information.
+
 Technology Used
+
 HTML
 CSS
-JavaScript/JQuery/AJAX
-Credits
+JavaScript/JQuery
 Spoonacular Food API
 
 https://spoonacular.com/food-api
 
 Author
-Lisa Reinhardt
-
-Acknowledments
-Praveen Kumar Purushothaman — The incredible mentor.
+Jonathan Toj
