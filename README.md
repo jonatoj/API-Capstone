@@ -11,7 +11,7 @@ Current live version: 1.0
 
 
 ## Requirements
-  <ul>A web browser.
+A web browser.
 An active internet connection.
 User Instructions.
 Select a Cuisine from the list and number of images to display.<ul>
