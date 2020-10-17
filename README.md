@@ -11,10 +11,10 @@ Current live version: 1.0
 
 
 ## Requirements
-A web browser.
+  <ul>A web browser.
 An active internet connection.
 User Instructions.
-Select a Cuisine from the list and number of images to display.
+Select a Cuisine from the list and number of images to display.<ul>
 
 
 Select one of twenty six cuisines displayed and select number of recipes to display
