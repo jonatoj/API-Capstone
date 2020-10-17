@@ -12,17 +12,43 @@
 </head>
 <body>
     <h1>What's for Dinner?</h1>
-    <section>
+
     <p class="description">
-    So, What's for Dinner? allows you to simply search for recipes by cuisine, <br>
-     and once you're ready to see the recipe just click the image!</p>
-</section>
+    Need meal plan Ideas? Search Below! Once you're ready to see the recipe just click the image!</p>
 
     <form id=container>
         <label for="js-recipe">Search for Recipes by Cuisine:</label>
-        <input type="text" name="recipe" id="js-recipe" placeholder="Mexican" class="textbox" required>
+        <select name="recipe" id="js-recipe" class="box" required>
+            <option value="">Choose a Cuisine!</option>
+            <option value="African">African</option>
+            <option value="American">American</option>
+            <option value="British">British</option>
+            <option value="Cajun">Cajun</option>
+            <option value="Caribbean">Caribbean</option>
+            <option value="Chinese">Chinese</option>
+            <option value="Eastern European">Eastern European </option>
+            <option value="European">European</option>
+            <option value="French">French</option>
+            <option value="German">German</option>
+            <option value="Greek">Greek</option>
+            <option value="Indian">Indian</option>
+            <option value="Irish">Irish</option>
+            <option value="Italian">Italian</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Jewish">Jewish</option>
+            <option value="Korean">Korean</option>
+            <option value="Latin American">Latin American</option>
+            <option value="Mediterranean">Mediterranean</option>
+            <option value="Mexican">Mexican</option>
+            <option value="Middle Eastern">Middle Eastern</option>
+            <option value="Nordic">Nordic</option>
+            <option value="Southern">Southern</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Thai">Thai</option>
+            <option value="Vietnamese">Vietnamese</option>
+        </select>
         <label for="js-totalRecipe">Number Of Recipes:</label>
-        <input type="number" name="maxRecipe" id="js-totalRecipe"  max="20" value="10" class="number" required> 
+        <input type="number" name="maxRecipe" id="js-totalRecipe"  max="20" value="6" class="number" required> 
         <button type="submit">Find</button>
     </form>
 
@@ -30,9 +56,9 @@
 
         <section class="results-hidden">
             <h2>Search Results:</h2>
-            <ul class="results-list">
-            </ul>
+            <ul class="results-list"></ul>
         </section>
+
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="index.js"></script>
