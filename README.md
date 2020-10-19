@@ -5,7 +5,7 @@
 
 A live version of the application can be found at: https://jonatoj.github.io/What-s-For-Dinner/.
 
-**Current live version: 1.0
+**Current live version:** 1.0
 
 ![Screenshot](main.png)
 
@@ -14,12 +14,11 @@ A live version of the application can be found at: https://jonatoj.github.io/Wha
 * A web browser.
 * An active internet connection.
 * Application description.
-* Select meal type and cuisine from the list and number of images to display.
+* Select meal type, cuisine and a number of recipes to display from the list.
 
 #
 
-Select one of two meal types, one of ten different cuisines displayed, and a select number of recipes to display
-recipes/images.
+Select one of two meal types, one of ten cuisines, and a number of recipe images to display.
 
 
 ![Screenshot](results.png)
@@ -47,6 +46,7 @@ Then click on the image to display the recipes information.
 * Spoonacular Food API
 
 #
+
 ## Credits
 
 Spoonacular
