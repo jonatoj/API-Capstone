@@ -13,12 +13,13 @@ h1 {
 }
 
 .description {
-    font-size: 15px;
+    font-size: 20px;
     padding: 0 18%;
 }
 
 /* Form view (Mobile)*/
 #js-mealType {
+    font-size: 18;
     padding: 10px 25px;
     margin: 3%;
     color: #055902;
@@ -27,6 +28,7 @@ h1 {
 }
 
 #js-recipe {
+    font-size: 18px;
     padding: 10px 19px;
     margin: 3%;
     color: #055902;
@@ -35,6 +37,7 @@ h1 {
 }
 
 #js-totalRecipe {
+    font-size: 18px;
     padding: 4px 20px;
     margin: 3%;
     color: #055902;
