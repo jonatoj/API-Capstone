@@ -19,13 +19,13 @@ A live version of the application can be found at: https://jonatoj.github.io/Wha
 #
 
 Select one of two meal types, one of ten different cuisines displayed, and a select number of recipes to display
-or use the default number of recipes/images.
+recipes/images.
 
 
 ![Screenshot](results.png)
 
 
-Then click the image to display the recipes information.
+Then click on the image to display the recipes information.
 
 
 ![Screenshot](recipe.png)
