@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What's for Dinner</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>What's for Dinner?</h1>
+        <p class="description">Need meal plan Ideas? Search Below! Once you're ready to view the recipe just click on the image below!</p>
+    </header>
+
+<main>    
+    <form>
+        <div>
+            <label for="js-mealType">Meal Type:</label>
+        </div>
+
+        <div>
+            <select name="mealType" id="js-mealType" required>
+                <option value="">Meal Type</option>
+                <option value="Main Course">Main Course</option>
+                <option value="Side Dish">Side Dish</option>   
+            </select>
+        </div>
+        
+        <div>
+            <label for="js-recipe">Search by Cuisine:</label>
+        </div>
+
+        <div>
+            <select name="recipe" id="js-recipe" class="box" required>
+                <option value="">Cuisine</option>
+                <option value="American">American</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Italian">Italian</option>
+                <option value="Japanese">Japanese</option>
+                <option value="Latin American">Latin American</option>
+                <option value="Mediterranean">Mediterranean</option>
+                <option value="Mexican">Mexican</option>
+                <option value="Spanish">Spanish</option>
+                <option value="Thai">Thai</option>
+                <option value="Vietnamese">Vietnamese</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="js-totalRecipe">Number of Recipes:</label>
+        </div>
+        
+        <div>
+            <input type="number" name="maxRecipe" id="js-totalRecipe"  max="20" min="0" value="2"> 
+        </div>
+
+            <button type="submit">Find</button>
+
+    </form>
+
+    <p class="js-error"></p>
+
+        <section class="results-hidden">
+            <h2>Search Results:</h2>
+            <ul class="results-list"></ul>
+        </section>
+</main>
+
+<footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+/* Mobile view */
+body { 
+    background: url(https://i.ibb.co/tKfQ707/Lukas-blazek-EWDv-HNNf-Um-Q-unsplash.jpg) no-repeat center center fixed; 
+    background-size: auto;
+    font-family: 'Nunito', sans-serif;
+    color: #055902;
+    text-align: center;
+    margin: 1%;
+}
+
+h1 {
+    font-size: 30px;  
+}
+
+.description {
+    font-size: 15px;
+    padding: 0 18%;
+}
+
+/* Form view (Mobile)*/
+#js-mealType {
+    padding: 10px 25px;
+    margin: 3%;
+    color: #055902;
+    border: solid whitesmoke;
+    background-color: gainsboro;
+}
+
+#js-recipe {
+    padding: 10px 19px;
+    margin: 3%;
+    color: #055902;
+    border: solid whitesmoke;
+    background-color: gainsboro;
+}
+
+#js-totalRecipe {
+    padding: 4px 20px;
+    margin: 3%;
+    color: #055902;
+    border: solid whitesmoke;
+    background-color: gainsboro;
+    text-align: center;
+}
+
+button {
+    padding: 10px 80px;
+    font-size: 20px;
+    margin: 10px;
+    color: #055902;
+    border: solid whitesmoke;
+    background-color: gainsboro;
+}
+
+/* Recipe Results View (Mobile)*/
+img {
+    width: 100%;
+    align-self: auto;
+    border: solid  thick whitesmoke;
+    background-color: gainsboro;
+}
+
+ul {
+    padding-right: 50px;
+}
+
+/* Desktop View*/
+@media screen and (min-width: 500px) {
+
+    /** Header and description **/
+    h1 {
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-size: 25px;
+        text-align: left; 
+        padding-left: 20%;
+        padding-top: 2%;     
+    }
+    
+    .description {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+        /** Form Style **/
+    form {
+        font-size: 30px;
+    }
+    
+    #js-mealType {
+        padding: 10px 25px;
+        font-size: 15px;
+        margin: 1%;
+    }
+    
+    #js-recipe {
+        padding: 10px 19px;
+        font-size: 15px;
+        margin: 1%;
+    }
+    
+    #js-totalRecipe {
+        padding: 2px 20px;
+        margin: 1%;
+    }
+
+    button {
+        margin: 20px;
+        padding: 5px 85px;
+        margin: 1%;
+    }
+    
+
+/** Search results style **/
+    h3 {
+        font-size: 20px;
+    }
+
+    li {
+        width: 30%;
+        display: inline-block;
+        margin: 5%;
+        border-radius: 5px;
+        padding: 5px;
+        align-content: center;
+    }
+
+    img {
+        max-width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+
+
