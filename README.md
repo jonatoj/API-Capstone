@@ -32,7 +32,8 @@ Then click on the image to display the recipes information.
 
 ## Planned Development
 
-* Allow the user to select one of twenty six different cuisines
+* Allow the user to select one of two meal types.
+* Allow the user to select one of ten different cuisines.
 * Allow the user to scroll through all the recipe/image results.
 * Allow the user to click on a image to view the recipe information.
 
