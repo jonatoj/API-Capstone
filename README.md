@@ -7,7 +7,7 @@ A live version of the application can be found at: https://jonatoj.github.io/Wha
 
 **Current live version:** 1.0
 
-![Screenshot](main.png)
+![Screenshot](form.png)
 
 
 ## Requirements
