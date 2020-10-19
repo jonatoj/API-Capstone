@@ -14,7 +14,7 @@ A live version of the application can be found at: https://jonatoj.github.io/Wha
 * A web browser.
 * An active internet connection.
 * Application description.
-* Select meal type, cuisine and a number of recipes to display from the list.
+* Select meal type, cuisine, and a number of recipes to display from the list.
 
 #
 
