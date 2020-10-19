@@ -1,7 +1,7 @@
 ## What's for Dinner?
 
-**Introduction**
-What's for Dinner is a web application to help you search for meal plan ideas by different cuisines.
+**Introduction:**
+ What's for Dinner is a web application to help you search for meal plan ideas by inputting the meal type and ten different cuisines.
 
 A live version of the application can be found at: https://jonatoj.github.io/What-s-For-Dinner/.
 
@@ -13,14 +13,13 @@ A live version of the application can be found at: https://jonatoj.github.io/Wha
 ## Requirements
 * A web browser.
 * An active internet connection.
-* User Instructions.
-* Select a Cuisine from the list and number of images to display.
+* Application description.
+* Select meal type and cuisine from the list and number of images to display.
 
 #
 
-
-Select one of twenty six cuisines displayed and select number of recipes to display
-or use default number of recipes/image.
+Select one of two meal types, one of ten different cuisines displayed, and a select number of recipes to display
+or use the default number of recipes/images.
 
 
 ![Screenshot](results.png)
